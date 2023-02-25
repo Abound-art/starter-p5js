@@ -1,9 +1,10 @@
 # ABOUND Starter Repo - p5.js
 
-This is a starter repository for an ABOUND algorithm written in [p5.js]
-(https://p5js.org/). 
+This is a starter repository for an ABOUND algorithm written in
+[p5.js](https://p5js.org/). 
 
 > **Warning**  
+>
 > p5.js is meant to run in the context of a web browser. To make it work in a
 > server environment, we use [p5js-node](https://github.com/SamuelScheit/p5js-node),
 > an unmaintained fork of p5.js. As such, not all p5.js features may be
@@ -22,6 +23,12 @@ This repo includes all of the scaffolding to build an algorithm for ABOUND. That
 
 1. Reading in the JSON configuration for a run
 2. Generating art using the [p5.js Mandelbrot Set example](https://p5js.org/examples/simulate-the-mandelbrot-set.html)
+  * Most of the other starter repos implement a
+  [Lorenz attractor](https://en.wikipedia.org/wiki/Lorenz_system), which is also
+  perfectly doable here, see the
+  [starter-node repo](https://github.com/Abound-art/starter-node) for an example
+  of that. We just chose to use a p5.js example directly to better illustrate
+  its usage.
 3. Writing the output to a file
 
 In short, this repo does everything except implement your art algorithm.
