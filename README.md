@@ -23,12 +23,12 @@ This repo includes all of the scaffolding to build an algorithm for ABOUND. That
 
 1. Reading in the JSON configuration for a run
 2. Generating art using the [p5.js Mandelbrot Set example](https://p5js.org/examples/simulate-the-mandelbrot-set.html)
-  * Most of the other starter repos implement a
-  [Lorenz attractor](https://en.wikipedia.org/wiki/Lorenz_system), which is also
-  perfectly doable here, see the
-  [starter-node repo](https://github.com/Abound-art/starter-node) for an example
-  of that. We just chose to use a p5.js example directly to better illustrate
-  its usage.
+    * Most of the other starter repos implement a
+    [Lorenz attractor](https://en.wikipedia.org/wiki/Lorenz_system), which is also
+    perfectly doable here, see the
+    [starter-node repo](https://github.com/Abound-art/starter-node) for an example
+    of that. We just chose to use a p5.js example directly to better illustrate
+    its usage.
 3. Writing the output to a file
 
 In short, this repo does everything except implement your art algorithm.
